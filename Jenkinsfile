@@ -14,7 +14,7 @@ pipeline {
 
 	post {
 		always {
-			archive 'dist/*'
+			archive '/var/lib/jenkins/test-proj/dist/*'
 		}
 	}
 }
