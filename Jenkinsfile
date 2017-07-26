@@ -11,9 +11,4 @@ pipeline {
 		}
 	}
 
-	post {
-		always {
-			archiveArtifacts artifacts: 'dist/*.txt', fingerprint: true
-		}
-	}
 }
