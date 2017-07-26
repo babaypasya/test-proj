@@ -6,7 +6,7 @@ pipeline {
 	stages {
 		stage('build') {
 		steps {
-		 sh 'ant -f build.xml -v'
+		 sh 'ant -f /var/lib/jenkins/content-jenkins-java-project/build.xml -v'
 		}	
 		}
 	}
