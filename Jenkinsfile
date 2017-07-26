@@ -14,7 +14,7 @@ pipeline {
 
 	post {
 		always {
-			archiveArtifacts artifacts: '/var/lib/jenkins/test-proj/dist/*', fingerprint: true
+			archiveArtifacts artifacts: 'dist/*.txt', fingerprint: true
 		}
 	}
 }
