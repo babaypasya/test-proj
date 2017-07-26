@@ -14,7 +14,7 @@ pipeline {
 
 	post {
 		always {
-			archive 'dist/*.txt'
+			archive 'dist/*'
 		}
 	}
 }
